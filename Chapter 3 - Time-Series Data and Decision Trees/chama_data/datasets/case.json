@@ -1,0 +1,187 @@
+[
+  {
+    "EnqueuedTimeUtc": "2021-09-05 08:04:08 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"a6611d55-9624-4381-8cdd-323ee3689241\",\"algorithmOutput\":{\"min_global\":85.0,\"min_recommended\":87.2,\"max_recommended\":97.65,\"differenceMinRecommendMinTheory\":2.2}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-08-18 11:43:23 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPricePerOption\",\"offerId\":\"56e0702c-0218-4626-8d3d-ae9d54b4503b\",\"algorithmOutput\":[{\"uniqueOptionId\":\"b0e296a9-0590-f0e0-8211-243a2ededb12\",\"bestPrice\":92.45},{\"uniqueOptionId\":\"d6562c24-0b37-5fb4-8275-65b7b8b47b87\",\"bestPrice\":92.45},{\"uniqueOptionId\":\"8d0f9262-f543-d0c8-a869-33985ae3ecda\",\"bestPrice\":92.45},{\"uniqueOptionId\":\"151e59ac-761a-96f5-d2b9-882037a9fd28\",\"bestPrice\":94.6},{\"uniqueOptionId\":\"3cd346f4-d297-7568-2e50-d43a8e2fd0a9\",\"bestPrice\":94.6},{\"uniqueOptionId\":\"b7a7b6d1-4dae-7392-5aaf-f3369c29db1d\",\"bestPrice\":93.0},{\"uniqueOptionId\":\"577e4bbd-f49d-ac23-56a6-e70072a05229\",\"bestPrice\":93.0},{\"uniqueOptionId\":\"f9b876ab-2590-952f-d69d-5b352ec251f3\",\"bestPrice\":91.35}]}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-05 09:04:04 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"b8c636fa-8241-47dc-ac40-bdf438a04d9c\",\"algorithmOutput\":{\"min_global\":85.0,\"min_recommended\":87.2,\"max_recommended\":97.65,\"differenceMinRecommendMinTheory\":2.2}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-08-25 05:02:55 UTC",
+    "EventName": "CurateOffer_Result",
+    "Payload": "[{\"curationProvider\":\"ByPrice\",\"offerId\":\"149f0e53-ff85-425f-a01a-8710f06704ea\",\"dealerId\":\"6517\",\"options\":[{\"uniqueOptionId\":\"b0e296a9-0590-f0e0-8211-243a2ededb12\",\"optionId\":\"6517 || dd839e4c-9f84-45eb-9cb2-9069fecf70f2\",\"isMobileDealer\":true,\"isOpen\":true,\"eta\":\"1:00\",\"chamaScore\":8.0,\"productBrand\":\"ULTRAGAZ\",\"isWinner\":true,\"minimumPrice\":90.00,\"maximumPrice\":180.00,\"dynamicPrice\":91.90,\"finalPrice\":91.90},{\"uniqueOptionId\":\"d6562c24-0b37-5fb4-8275-65b7b8b47b87\",\"optionId\":\"6517 || 6517\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"0:01\",\"chamaScore\":8.0,\"productBrand\":\"ULTRAGAZ\",\"isWinner\":false,\"minimumPrice\":90.00,\"maximumPrice\":180.00,\"dynamicPrice\":91.90,\"finalPrice\":91.90,\"defeatPrimaryReason\":\"Closed\",\"defeatReasons\":[\"Closed\",\"HasDriverInOffer\"]}]},{\"curationProvider\":\"ByPrice\",\"offerId\":\"149f0e53-ff85-425f-a01a-8710f06704ea\",\"dealerId\":\"9047\",\"options\":[{\"uniqueOptionId\":\"8d0f9262-f543-d0c8-a869-33985ae3ecda\",\"optionId\":\"9047 || 9047 || ULTRAGAZ\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"1:00\",\"chamaScore\":9.0,\"productBrand\":\"ULTRAGAZ\",\"isWinner\":false,\"minimumPrice\":99.00,\"maximumPrice\":198.00,\"dynamicPrice\":99.95,\"finalPrice\":99.95,\"defeatPrimaryReason\":\"Closed\",\"defeatReasons\":[\"Closed\",\"HigherPrice\",\"HasDriverInOffer\"]},{\"uniqueOptionId\":\"3cd346f4-d297-7568-2e50-d43a8e2fd0a9\",\"optionId\":\"9047 || 9047 || CONSIGAZ\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"1:00\",\"chamaScore\":9.0,\"productBrand\":\"CONSIGAZ\",\"isWinner\":false,\"minimumPrice\":89.99,\"maximumPrice\":179.98,\"dynamicPrice\":91.89,\"finalPrice\":91.89,\"defeatPrimaryReason\":\"Closed\",\"defeatReasons\":[\"Closed\",\"HigherPrice\",\"HigherETA\"]},{\"uniqueOptionId\":\"577e4bbd-f49d-ac23-56a6-e70072a05229\",\"optionId\":\"9047 || 9047 || LIQUIGAS\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"1:00\",\"chamaScore\":9.0,\"productBrand\":\"LIQUIGAS\",\"isWinner\":false,\"minimumPrice\":92.00,\"maximumPrice\":184.00,\"dynamicPrice\":93.90,\"finalPrice\":93.90,\"defeatPrimaryReason\":\"Closed\",\"defeatReasons\":[\"Closed\",\"HigherPrice\",\"HigherETA\"]},{\"uniqueOptionId\":\"f9b876ab-2590-952f-d69d-5b352ec251f3\",\"optionId\":\"9047 || 9047 || NACIONALGAS\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"1:00\",\"chamaScore\":9.0,\"productBrand\":\"NACIONALGAS\",\"isWinner\":true,\"minimumPrice\":88.90,\"maximumPrice\":177.80,\"dynamicPrice\":90.80,\"finalPrice\":90.80}]},{\"curationProvider\":\"ByPrice\",\"offerId\":\"149f0e53-ff85-425f-a01a-8710f06704ea\",\"dealerId\":\"8330\",\"options\":[{\"uniqueOptionId\":\"151e59ac-761a-96f5-d2b9-882037a9fd28\",\"optionId\":\"8330 || 8330 || CONSIGAZ\",\"isMobileDealer\":false,\"isOpen\":true,\"eta\":\"0:01\",\"chamaScore\":8.0,\"productBrand\":\"CONSIGAZ\",\"isWinner\":true,\"minimumPrice\":80.00,\"maximumPrice\":160.00,\"dynamicPrice\":87.35,\"finalPrice\":87.35}]},{\"curationProvider\":\"ByPrice\",\"offerId\":\"149f0e53-ff85-425f-a01a-8710f06704ea\",\"dealerId\":\"8835\",\"options\":[{\"uniqueOptionId\":\"b7a7b6d1-4dae-7392-5aaf-f3369c29db1d\",\"optionId\":\"8835 || 8835 || LIQUIGAS\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"0:01\",\"chamaScore\":8.0,\"productBrand\":\"LIQUIGAS\",\"isWinner\":true,\"minimumPrice\":60.00,\"maximumPrice\":120.00,\"dynamicPrice\":87.35,\"finalPrice\":87.35}]}]"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-05 08:03:28 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"3d32f7fb-396d-4d3f-b673-dea1f7dc41b7\",\"algorithmOutput\":{\"min_global\":85.0,\"min_recommended\":87.2,\"max_recommended\":97.65,\"differenceMinRecommendMinTheory\":2.2}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-08-18 11:44:00 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPricePerOption\",\"offerId\":\"00991873-194e-4a6e-89c9-8f68668b6aaa\",\"algorithmOutput\":[{\"uniqueOptionId\":\"b0e296a9-0590-f0e0-8211-243a2ededb12\",\"bestPrice\":92.45},{\"uniqueOptionId\":\"d6562c24-0b37-5fb4-8275-65b7b8b47b87\",\"bestPrice\":92.45},{\"uniqueOptionId\":\"8d0f9262-f543-d0c8-a869-33985ae3ecda\",\"bestPrice\":92.45},{\"uniqueOptionId\":\"151e59ac-761a-96f5-d2b9-882037a9fd28\",\"bestPrice\":94.6},{\"uniqueOptionId\":\"3cd346f4-d297-7568-2e50-d43a8e2fd0a9\",\"bestPrice\":94.6},{\"uniqueOptionId\":\"b7a7b6d1-4dae-7392-5aaf-f3369c29db1d\",\"bestPrice\":93.0},{\"uniqueOptionId\":\"577e4bbd-f49d-ac23-56a6-e70072a05229\",\"bestPrice\":93.0},{\"uniqueOptionId\":\"f9b876ab-2590-952f-d69d-5b352ec251f3\",\"bestPrice\":91.35}]}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-05 08:03:40 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"329194f3-95a4-45ef-b3d0-2796f74ce2a0\",\"algorithmOutput\":{\"min_global\":85.0,\"min_recommended\":87.2,\"max_recommended\":97.65,\"differenceMinRecommendMinTheory\":2.2}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-05 04:03:08 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"fdcfde5c-113d-4a59-9ae0-8bc31e2943d8\",\"algorithmOutput\":{\"min_global\":87.35,\"min_recommended\":89.25,\"max_recommended\":99.95,\"differenceMinRecommendMinTheory\":1.90}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-08-18 11:44:00 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPricePerOption\",\"offerId\":\"00991873-194e-4a6e-89c9-8f68668b6aaa\",\"algorithmOutput\":[{\"uniqueOptionId\":\"b0e296a9-0590-f0e0-8211-243a2ededb12\",\"bestPrice\":92.45},{\"uniqueOptionId\":\"d6562c24-0b37-5fb4-8275-65b7b8b47b87\",\"bestPrice\":92.45},{\"uniqueOptionId\":\"8d0f9262-f543-d0c8-a869-33985ae3ecda\",\"bestPrice\":92.45},{\"uniqueOptionId\":\"151e59ac-761a-96f5-d2b9-882037a9fd28\",\"bestPrice\":94.6},{\"uniqueOptionId\":\"3cd346f4-d297-7568-2e50-d43a8e2fd0a9\",\"bestPrice\":94.6},{\"uniqueOptionId\":\"b7a7b6d1-4dae-7392-5aaf-f3369c29db1d\",\"bestPrice\":93.0},{\"uniqueOptionId\":\"577e4bbd-f49d-ac23-56a6-e70072a05229\",\"bestPrice\":93.0},{\"uniqueOptionId\":\"f9b876ab-2590-952f-d69d-5b352ec251f3\",\"bestPrice\":91.35}]}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-05 09:18:04 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"27bbc4fa-2388-4780-b66c-92a51397d191\",\"algorithmOutput\":{\"min_global\":87.35,\"min_recommended\":89.25,\"max_recommended\":99.95,\"differenceMinRecommendMinTheory\":1.90}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-05 08:04:16 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"baffc30b-7642-45fe-a2ce-da31a71732ae\",\"algorithmOutput\":{\"min_global\":85.0,\"min_recommended\":87.2,\"max_recommended\":97.65,\"differenceMinRecommendMinTheory\":2.2}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-05 09:03:24 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"b5982abd-f602-47ac-b45a-bb43bf993d46\",\"algorithmOutput\":{\"min_global\":85.0,\"min_recommended\":87.2,\"max_recommended\":97.65,\"differenceMinRecommendMinTheory\":2.2}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-08-18 11:44:04 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPricePerOption\",\"offerId\":\"7a471a13-7922-4e7a-9667-9b2f96b44a2a\",\"algorithmOutput\":[{\"uniqueOptionId\":\"b0e296a9-0590-f0e0-8211-243a2ededb12\",\"bestPrice\":92.45},{\"uniqueOptionId\":\"d6562c24-0b37-5fb4-8275-65b7b8b47b87\",\"bestPrice\":92.45},{\"uniqueOptionId\":\"8d0f9262-f543-d0c8-a869-33985ae3ecda\",\"bestPrice\":92.45},{\"uniqueOptionId\":\"151e59ac-761a-96f5-d2b9-882037a9fd28\",\"bestPrice\":94.6},{\"uniqueOptionId\":\"3cd346f4-d297-7568-2e50-d43a8e2fd0a9\",\"bestPrice\":94.6},{\"uniqueOptionId\":\"b7a7b6d1-4dae-7392-5aaf-f3369c29db1d\",\"bestPrice\":93.0},{\"uniqueOptionId\":\"577e4bbd-f49d-ac23-56a6-e70072a05229\",\"bestPrice\":93.0},{\"uniqueOptionId\":\"f9b876ab-2590-952f-d69d-5b352ec251f3\",\"bestPrice\":91.35}]}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-08-25 09:03:29 UTC",
+    "EventName": "CurateOffer_Result",
+    "Payload": "[{\"curationProvider\":\"ByPrice\",\"offerId\":\"c99aa9a7-ac50-4a10-be0f-ac9f5ac0f45d\",\"dealerId\":\"6517\",\"options\":[{\"uniqueOptionId\":\"b0e296a9-0590-f0e0-8211-243a2ededb12\",\"optionId\":\"6517 || dd839e4c-9f84-45eb-9cb2-9069fecf70f2\",\"isMobileDealer\":true,\"isOpen\":true,\"eta\":\"00:12:54.9215999\",\"chamaScore\":8.0,\"productBrand\":\"ULTRAGAZ\",\"isWinner\":true,\"minimumPrice\":90.00,\"maximumPrice\":180.00,\"dynamicPrice\":91.90,\"finalPrice\":91.90},{\"uniqueOptionId\":\"d6562c24-0b37-5fb4-8275-65b7b8b47b87\",\"optionId\":\"6517 || 6517\",\"isMobileDealer\":false,\"isOpen\":true,\"eta\":\"0:01\",\"chamaScore\":8.0,\"productBrand\":\"ULTRAGAZ\",\"isWinner\":false,\"minimumPrice\":90.00,\"maximumPrice\":180.00,\"dynamicPrice\":91.90,\"finalPrice\":91.90,\"defeatPrimaryReason\":\"HasDriverInOffer\",\"defeatReasons\":[\"HasDriverInOffer\"]}]},{\"curationProvider\":\"ByPrice\",\"offerId\":\"c99aa9a7-ac50-4a10-be0f-ac9f5ac0f45d\",\"dealerId\":\"9047\",\"options\":[{\"uniqueOptionId\":\"8d0f9262-f543-d0c8-a869-33985ae3ecda\",\"optionId\":\"9047 || 9047 || ULTRAGAZ\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"1:00\",\"chamaScore\":9.0,\"productBrand\":\"ULTRAGAZ\",\"isWinner\":false,\"minimumPrice\":99.00,\"maximumPrice\":198.00,\"dynamicPrice\":99.95,\"finalPrice\":99.95,\"defeatPrimaryReason\":\"Closed\",\"defeatReasons\":[\"Closed\",\"HigherPrice\",\"HasDriverInOffer\",\"HigherETA\"]},{\"uniqueOptionId\":\"3cd346f4-d297-7568-2e50-d43a8e2fd0a9\",\"optionId\":\"9047 || 9047 || CONSIGAZ\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"1:00\",\"chamaScore\":9.0,\"productBrand\":\"CONSIGAZ\",\"isWinner\":false,\"minimumPrice\":89.99,\"maximumPrice\":179.98,\"dynamicPrice\":91.89,\"finalPrice\":91.89,\"defeatPrimaryReason\":\"Closed\",\"defeatReasons\":[\"Closed\",\"HigherPrice\",\"HigherETA\"]},{\"uniqueOptionId\":\"577e4bbd-f49d-ac23-56a6-e70072a05229\",\"optionId\":\"9047 || 9047 || LIQUIGAS\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"1:00\",\"chamaScore\":9.0,\"productBrand\":\"LIQUIGAS\",\"isWinner\":false,\"minimumPrice\":92.00,\"maximumPrice\":184.00,\"dynamicPrice\":93.90,\"finalPrice\":93.90,\"defeatPrimaryReason\":\"Closed\",\"defeatReasons\":[\"Closed\",\"HigherPrice\",\"HigherETA\"]},{\"uniqueOptionId\":\"f9b876ab-2590-952f-d69d-5b352ec251f3\",\"optionId\":\"9047 || 9047 || NACIONALGAS\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"1:00\",\"chamaScore\":9.0,\"productBrand\":\"NACIONALGAS\",\"isWinner\":true,\"minimumPrice\":88.90,\"maximumPrice\":177.80,\"dynamicPrice\":90.80,\"finalPrice\":90.80}]},{\"curationProvider\":\"ByPrice\",\"offerId\":\"c99aa9a7-ac50-4a10-be0f-ac9f5ac0f45d\",\"dealerId\":\"8330\",\"options\":[{\"uniqueOptionId\":\"151e59ac-761a-96f5-d2b9-882037a9fd28\",\"optionId\":\"8330 || 8330 || CONSIGAZ\",\"isMobileDealer\":false,\"isOpen\":true,\"eta\":\"0:01\",\"chamaScore\":8.0,\"productBrand\":\"CONSIGAZ\",\"isWinner\":true,\"minimumPrice\":80.00,\"maximumPrice\":160.00,\"dynamicPrice\":87.35,\"finalPrice\":87.35}]},{\"curationProvider\":\"ByPrice\",\"offerId\":\"c99aa9a7-ac50-4a10-be0f-ac9f5ac0f45d\",\"dealerId\":\"8835\",\"options\":[{\"uniqueOptionId\":\"b7a7b6d1-4dae-7392-5aaf-f3369c29db1d\",\"optionId\":\"8835 || 8835 || LIQUIGAS\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"0:01\",\"chamaScore\":8.0,\"productBrand\":\"LIQUIGAS\",\"isWinner\":true,\"minimumPrice\":60.00,\"maximumPrice\":120.00,\"dynamicPrice\":87.35,\"finalPrice\":87.35}]}]"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-05 04:03:52 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"f6643886-4a0f-45ae-ae32-ee95c72ee94a\",\"algorithmOutput\":{\"min_global\":87.35,\"min_recommended\":89.25,\"max_recommended\":99.95,\"differenceMinRecommendMinTheory\":1.90}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-08-25 05:02:18 UTC",
+    "EventName": "CurateOffer_Result",
+    "Payload": "[{\"curationProvider\":\"ByPrice\",\"offerId\":\"d668106a-7596-49c6-b99a-18b7a2f3963f\",\"dealerId\":\"6517\",\"options\":[{\"uniqueOptionId\":\"b0e296a9-0590-f0e0-8211-243a2ededb12\",\"optionId\":\"6517 || dd839e4c-9f84-45eb-9cb2-9069fecf70f2\",\"isMobileDealer\":true,\"isOpen\":true,\"eta\":\"1:00\",\"chamaScore\":8.0,\"productBrand\":\"ULTRAGAZ\",\"isWinner\":true,\"minimumPrice\":90.00,\"maximumPrice\":180.00,\"dynamicPrice\":91.90,\"finalPrice\":91.90},{\"uniqueOptionId\":\"d6562c24-0b37-5fb4-8275-65b7b8b47b87\",\"optionId\":\"6517 || 6517\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"0:01\",\"chamaScore\":8.0,\"productBrand\":\"ULTRAGAZ\",\"isWinner\":false,\"minimumPrice\":90.00,\"maximumPrice\":180.00,\"dynamicPrice\":91.90,\"finalPrice\":91.90,\"defeatPrimaryReason\":\"Closed\",\"defeatReasons\":[\"Closed\",\"HasDriverInOffer\"]}]},{\"curationProvider\":\"ByPrice\",\"offerId\":\"d668106a-7596-49c6-b99a-18b7a2f3963f\",\"dealerId\":\"9047\",\"options\":[{\"uniqueOptionId\":\"8d0f9262-f543-d0c8-a869-33985ae3ecda\",\"optionId\":\"9047 || 9047 || ULTRAGAZ\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"1:00\",\"chamaScore\":9.0,\"productBrand\":\"ULTRAGAZ\",\"isWinner\":false,\"minimumPrice\":99.00,\"maximumPrice\":198.00,\"dynamicPrice\":99.95,\"finalPrice\":99.95,\"defeatPrimaryReason\":\"Closed\",\"defeatReasons\":[\"Closed\",\"HigherPrice\",\"HasDriverInOffer\"]},{\"uniqueOptionId\":\"3cd346f4-d297-7568-2e50-d43a8e2fd0a9\",\"optionId\":\"9047 || 9047 || CONSIGAZ\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"1:00\",\"chamaScore\":9.0,\"productBrand\":\"CONSIGAZ\",\"isWinner\":false,\"minimumPrice\":89.99,\"maximumPrice\":179.98,\"dynamicPrice\":91.89,\"finalPrice\":91.89,\"defeatPrimaryReason\":\"Closed\",\"defeatReasons\":[\"Closed\",\"HigherPrice\",\"HigherETA\"]},{\"uniqueOptionId\":\"577e4bbd-f49d-ac23-56a6-e70072a05229\",\"optionId\":\"9047 || 9047 || LIQUIGAS\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"1:00\",\"chamaScore\":9.0,\"productBrand\":\"LIQUIGAS\",\"isWinner\":false,\"minimumPrice\":92.00,\"maximumPrice\":184.00,\"dynamicPrice\":93.90,\"finalPrice\":93.90,\"defeatPrimaryReason\":\"Closed\",\"defeatReasons\":[\"Closed\",\"HigherPrice\",\"HigherETA\"]},{\"uniqueOptionId\":\"f9b876ab-2590-952f-d69d-5b352ec251f3\",\"optionId\":\"9047 || 9047 || NACIONALGAS\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"1:00\",\"chamaScore\":9.0,\"productBrand\":\"NACIONALGAS\",\"isWinner\":true,\"minimumPrice\":88.90,\"maximumPrice\":177.80,\"dynamicPrice\":90.80,\"finalPrice\":90.80}]},{\"curationProvider\":\"ByPrice\",\"offerId\":\"d668106a-7596-49c6-b99a-18b7a2f3963f\",\"dealerId\":\"8330\",\"options\":[{\"uniqueOptionId\":\"151e59ac-761a-96f5-d2b9-882037a9fd28\",\"optionId\":\"8330 || 8330 || CONSIGAZ\",\"isMobileDealer\":false,\"isOpen\":true,\"eta\":\"0:01\",\"chamaScore\":8.0,\"productBrand\":\"CONSIGAZ\",\"isWinner\":true,\"minimumPrice\":80.00,\"maximumPrice\":160.00,\"dynamicPrice\":87.35,\"finalPrice\":87.35}]},{\"curationProvider\":\"ByPrice\",\"offerId\":\"d668106a-7596-49c6-b99a-18b7a2f3963f\",\"dealerId\":\"8835\",\"options\":[{\"uniqueOptionId\":\"b7a7b6d1-4dae-7392-5aaf-f3369c29db1d\",\"optionId\":\"8835 || 8835 || LIQUIGAS\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"0:01\",\"chamaScore\":8.0,\"productBrand\":\"LIQUIGAS\",\"isWinner\":true,\"minimumPrice\":60.00,\"maximumPrice\":120.00,\"dynamicPrice\":87.35,\"finalPrice\":87.35}]}]"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-05 08:03:00 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"16a2d492-b1c3-40ec-970f-b8704d8db96f\",\"algorithmOutput\":{\"min_global\":85.0,\"min_recommended\":87.2,\"max_recommended\":97.65,\"differenceMinRecommendMinTheory\":2.2}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-08-25 09:02:29 UTC",
+    "EventName": "CurateOffer_Result",
+    "Payload": "[{\"curationProvider\":\"ByPrice\",\"offerId\":\"0a06a478-77b3-4941-83d3-84ded18d4731\",\"dealerId\":\"6517\",\"options\":[{\"uniqueOptionId\":\"b0e296a9-0590-f0e0-8211-243a2ededb12\",\"optionId\":\"6517 || dd839e4c-9f84-45eb-9cb2-9069fecf70f2\",\"isMobileDealer\":true,\"isOpen\":true,\"eta\":\"00:01:27.4607999\",\"chamaScore\":8.0,\"productBrand\":\"ULTRAGAZ\",\"isWinner\":true,\"minimumPrice\":90.00,\"maximumPrice\":180.00,\"dynamicPrice\":91.90,\"finalPrice\":91.90},{\"uniqueOptionId\":\"d6562c24-0b37-5fb4-8275-65b7b8b47b87\",\"optionId\":\"6517 || 6517\",\"isMobileDealer\":false,\"isOpen\":true,\"eta\":\"0:01\",\"chamaScore\":8.0,\"productBrand\":\"ULTRAGAZ\",\"isWinner\":false,\"minimumPrice\":90.00,\"maximumPrice\":180.00,\"dynamicPrice\":91.90,\"finalPrice\":91.90,\"defeatPrimaryReason\":\"HasDriverInOffer\",\"defeatReasons\":[\"HasDriverInOffer\"]}]},{\"curationProvider\":\"ByPrice\",\"offerId\":\"0a06a478-77b3-4941-83d3-84ded18d4731\",\"dealerId\":\"9047\",\"options\":[{\"uniqueOptionId\":\"8d0f9262-f543-d0c8-a869-33985ae3ecda\",\"optionId\":\"9047 || 9047 || ULTRAGAZ\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"1:00\",\"chamaScore\":9.0,\"productBrand\":\"ULTRAGAZ\",\"isWinner\":false,\"minimumPrice\":99.00,\"maximumPrice\":198.00,\"dynamicPrice\":99.95,\"finalPrice\":99.95,\"defeatPrimaryReason\":\"Closed\",\"defeatReasons\":[\"Closed\",\"HigherPrice\",\"HasDriverInOffer\",\"HigherETA\"]},{\"uniqueOptionId\":\"3cd346f4-d297-7568-2e50-d43a8e2fd0a9\",\"optionId\":\"9047 || 9047 || CONSIGAZ\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"1:00\",\"chamaScore\":9.0,\"productBrand\":\"CONSIGAZ\",\"isWinner\":false,\"minimumPrice\":89.99,\"maximumPrice\":179.98,\"dynamicPrice\":91.89,\"finalPrice\":91.89,\"defeatPrimaryReason\":\"Closed\",\"defeatReasons\":[\"Closed\",\"HigherPrice\",\"HigherETA\"]},{\"uniqueOptionId\":\"577e4bbd-f49d-ac23-56a6-e70072a05229\",\"optionId\":\"9047 || 9047 || LIQUIGAS\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"1:00\",\"chamaScore\":9.0,\"productBrand\":\"LIQUIGAS\",\"isWinner\":false,\"minimumPrice\":92.00,\"maximumPrice\":184.00,\"dynamicPrice\":93.90,\"finalPrice\":93.90,\"defeatPrimaryReason\":\"Closed\",\"defeatReasons\":[\"Closed\",\"HigherPrice\",\"HigherETA\"]},{\"uniqueOptionId\":\"f9b876ab-2590-952f-d69d-5b352ec251f3\",\"optionId\":\"9047 || 9047 || NACIONALGAS\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"1:00\",\"chamaScore\":9.0,\"productBrand\":\"NACIONALGAS\",\"isWinner\":true,\"minimumPrice\":88.90,\"maximumPrice\":177.80,\"dynamicPrice\":90.80,\"finalPrice\":90.80}]},{\"curationProvider\":\"ByPrice\",\"offerId\":\"0a06a478-77b3-4941-83d3-84ded18d4731\",\"dealerId\":\"8330\",\"options\":[{\"uniqueOptionId\":\"151e59ac-761a-96f5-d2b9-882037a9fd28\",\"optionId\":\"8330 || 8330 || CONSIGAZ\",\"isMobileDealer\":false,\"isOpen\":true,\"eta\":\"0:01\",\"chamaScore\":8.0,\"productBrand\":\"CONSIGAZ\",\"isWinner\":true,\"minimumPrice\":80.00,\"maximumPrice\":160.00,\"dynamicPrice\":87.35,\"finalPrice\":87.35}]},{\"curationProvider\":\"ByPrice\",\"offerId\":\"0a06a478-77b3-4941-83d3-84ded18d4731\",\"dealerId\":\"8835\",\"options\":[{\"uniqueOptionId\":\"b7a7b6d1-4dae-7392-5aaf-f3369c29db1d\",\"optionId\":\"8835 || 8835 || LIQUIGAS\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"0:01\",\"chamaScore\":8.0,\"productBrand\":\"LIQUIGAS\",\"isWinner\":true,\"minimumPrice\":60.00,\"maximumPrice\":120.00,\"dynamicPrice\":87.35,\"finalPrice\":87.35}]}]"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-05 09:03:52 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"e94cf567-d77a-4874-9663-0b49d19f604c\",\"algorithmOutput\":{\"min_global\":85.0,\"min_recommended\":87.2,\"max_recommended\":97.65,\"differenceMinRecommendMinTheory\":2.2}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-05 08:03:16 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"57a52d66-93fb-40a4-b44a-662d439ce070\",\"algorithmOutput\":{\"min_global\":85.0,\"min_recommended\":87.2,\"max_recommended\":97.65,\"differenceMinRecommendMinTheory\":2.2}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-08-18 11:43:57 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPricePerOption\",\"offerId\":\"7cb20a39-c7f9-4c4c-9d51-94dbb8c4ff07\",\"algorithmOutput\":[{\"uniqueOptionId\":\"9c4ec643-934f-56d1-198d-46a8adc6c405\",\"bestPrice\":93.5},{\"uniqueOptionId\":\"d6562c24-0b37-5fb4-8275-65b7b8b47b87\",\"bestPrice\":93.5},{\"uniqueOptionId\":\"8d0f9262-f543-d0c8-a869-33985ae3ecda\",\"bestPrice\":93.5},{\"uniqueOptionId\":\"151e59ac-761a-96f5-d2b9-882037a9fd28\",\"bestPrice\":94.4},{\"uniqueOptionId\":\"3cd346f4-d297-7568-2e50-d43a8e2fd0a9\",\"bestPrice\":94.4},{\"uniqueOptionId\":\"b7a7b6d1-4dae-7392-5aaf-f3369c29db1d\",\"bestPrice\":94.4},{\"uniqueOptionId\":\"577e4bbd-f49d-ac23-56a6-e70072a05229\",\"bestPrice\":94.4},{\"uniqueOptionId\":\"f9b876ab-2590-952f-d69d-5b352ec251f3\",\"bestPrice\":93.95}]}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-05 05:02:49 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"0474ba06-1a1e-4ebe-934f-b416dd0c9313\",\"algorithmOutput\":{\"min_global\":87.35,\"min_recommended\":89.25,\"max_recommended\":99.95,\"differenceMinRecommendMinTheory\":1.90}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-08-18 11:44:12 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPricePerOption\",\"offerId\":\"6dc306e7-7a6a-459a-a12c-400b4b3c9d37\",\"algorithmOutput\":[{\"uniqueOptionId\":\"b0e296a9-0590-f0e0-8211-243a2ededb12\",\"bestPrice\":92.45},{\"uniqueOptionId\":\"d6562c24-0b37-5fb4-8275-65b7b8b47b87\",\"bestPrice\":92.45},{\"uniqueOptionId\":\"8d0f9262-f543-d0c8-a869-33985ae3ecda\",\"bestPrice\":92.45},{\"uniqueOptionId\":\"151e59ac-761a-96f5-d2b9-882037a9fd28\",\"bestPrice\":94.6},{\"uniqueOptionId\":\"3cd346f4-d297-7568-2e50-d43a8e2fd0a9\",\"bestPrice\":94.6},{\"uniqueOptionId\":\"b7a7b6d1-4dae-7392-5aaf-f3369c29db1d\",\"bestPrice\":93.0},{\"uniqueOptionId\":\"577e4bbd-f49d-ac23-56a6-e70072a05229\",\"bestPrice\":93.0},{\"uniqueOptionId\":\"f9b876ab-2590-952f-d69d-5b352ec251f3\",\"bestPrice\":91.35}]}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-05 09:03:41 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"a48a4485-1add-468e-9f20-5b3659498b82\",\"algorithmOutput\":{\"min_global\":85.0,\"min_recommended\":87.2,\"max_recommended\":97.65,\"differenceMinRecommendMinTheory\":2.2}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-05 04:04:05 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"d7739a03-c1f8-46db-971f-1a9af3dd88d9\",\"algorithmOutput\":{\"min_global\":87.35,\"min_recommended\":89.25,\"max_recommended\":99.95,\"differenceMinRecommendMinTheory\":1.90}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-05 09:02:05 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"4e44bf19-62ff-4d6e-8ce6-f4de80bb027d\",\"algorithmOutput\":{\"min_global\":85.0,\"min_recommended\":87.2,\"max_recommended\":97.65,\"differenceMinRecommendMinTheory\":2.2}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-05 09:17:21 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"3da3a438-3fd3-432a-a778-e0a2d815f831\",\"algorithmOutput\":{\"min_global\":87.35,\"min_recommended\":89.25,\"max_recommended\":99.95,\"differenceMinRecommendMinTheory\":1.90}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-05 09:02:17 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"bc8a4008-eef4-4059-8264-a078f618f3bd\",\"algorithmOutput\":{\"min_global\":85.0,\"min_recommended\":87.2,\"max_recommended\":97.65,\"differenceMinRecommendMinTheory\":2.2}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-05 09:02:21 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"36d3b55c-a449-4ab3-9b49-849d158038da\",\"algorithmOutput\":{\"min_global\":85.0,\"min_recommended\":87.2,\"max_recommended\":97.65,\"differenceMinRecommendMinTheory\":2.2}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-05 09:04:17 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"5ebc735e-7445-4d17-aeca-b56d8d04a51a\",\"algorithmOutput\":{\"min_global\":85.0,\"min_recommended\":87.2,\"max_recommended\":97.65,\"differenceMinRecommendMinTheory\":2.2}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-05 09:02:33 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"31cc86f1-881b-4b89-838e-bffdcfded61e\",\"algorithmOutput\":{\"min_global\":85.0,\"min_recommended\":87.2,\"max_recommended\":97.65,\"differenceMinRecommendMinTheory\":2.2}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-05 09:04:29 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"7e7f25c6-6352-40d0-bd1e-1dd4e8a5c222\",\"algorithmOutput\":{\"min_global\":85.0,\"min_recommended\":87.2,\"max_recommended\":97.65,\"differenceMinRecommendMinTheory\":2.2}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-08-18 11:44:08 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPricePerOption\",\"offerId\":\"309e5beb-4e96-4f10-9233-e11057385c07\",\"algorithmOutput\":[{\"uniqueOptionId\":\"b0e296a9-0590-f0e0-8211-243a2ededb12\",\"bestPrice\":92.45},{\"uniqueOptionId\":\"d6562c24-0b37-5fb4-8275-65b7b8b47b87\",\"bestPrice\":92.45},{\"uniqueOptionId\":\"8d0f9262-f543-d0c8-a869-33985ae3ecda\",\"bestPrice\":92.45},{\"uniqueOptionId\":\"151e59ac-761a-96f5-d2b9-882037a9fd28\",\"bestPrice\":94.6},{\"uniqueOptionId\":\"3cd346f4-d297-7568-2e50-d43a8e2fd0a9\",\"bestPrice\":94.6},{\"uniqueOptionId\":\"b7a7b6d1-4dae-7392-5aaf-f3369c29db1d\",\"bestPrice\":93.0},{\"uniqueOptionId\":\"577e4bbd-f49d-ac23-56a6-e70072a05229\",\"bestPrice\":93.0},{\"uniqueOptionId\":\"f9b876ab-2590-952f-d69d-5b352ec251f3\",\"bestPrice\":91.35}]}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-05 09:02:41 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"c0b7cf25-62d1-4f3d-be18-3825c316ed8d\",\"algorithmOutput\":{\"min_global\":85.0,\"min_recommended\":87.2,\"max_recommended\":97.65,\"differenceMinRecommendMinTheory\":2.2}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-05 08:04:01 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"de8394da-020c-422a-890a-0d77a5f8359a\",\"algorithmOutput\":{\"min_global\":85.0,\"min_recommended\":87.2,\"max_recommended\":97.65,\"differenceMinRecommendMinTheory\":2.2}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-08-25 09:03:14 UTC",
+    "EventName": "CurateOffer_Result",
+    "Payload": "[{\"curationProvider\":\"ByPrice\",\"offerId\":\"135d8401-11c0-4d21-bac1-cdb93ba65189\",\"dealerId\":\"6517\",\"options\":[{\"uniqueOptionId\":\"b0e296a9-0590-f0e0-8211-243a2ededb12\",\"optionId\":\"6517 || dd839e4c-9f84-45eb-9cb2-9069fecf70f2\",\"isMobileDealer\":true,\"isOpen\":true,\"eta\":\"00:07:11.1911999\",\"chamaScore\":8.0,\"productBrand\":\"ULTRAGAZ\",\"isWinner\":true,\"minimumPrice\":90.00,\"maximumPrice\":180.00,\"dynamicPrice\":91.90,\"finalPrice\":91.90},{\"uniqueOptionId\":\"d6562c24-0b37-5fb4-8275-65b7b8b47b87\",\"optionId\":\"6517 || 6517\",\"isMobileDealer\":false,\"isOpen\":true,\"eta\":\"0:01\",\"chamaScore\":8.0,\"productBrand\":\"ULTRAGAZ\",\"isWinner\":false,\"minimumPrice\":90.00,\"maximumPrice\":180.00,\"dynamicPrice\":91.90,\"finalPrice\":91.90,\"defeatPrimaryReason\":\"HasDriverInOffer\",\"defeatReasons\":[\"HasDriverInOffer\"]}]},{\"curationProvider\":\"ByPrice\",\"offerId\":\"135d8401-11c0-4d21-bac1-cdb93ba65189\",\"dealerId\":\"9047\",\"options\":[{\"uniqueOptionId\":\"8d0f9262-f543-d0c8-a869-33985ae3ecda\",\"optionId\":\"9047 || 9047 || ULTRAGAZ\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"1:00\",\"chamaScore\":9.0,\"productBrand\":\"ULTRAGAZ\",\"isWinner\":false,\"minimumPrice\":99.00,\"maximumPrice\":198.00,\"dynamicPrice\":99.95,\"finalPrice\":99.95,\"defeatPrimaryReason\":\"Closed\",\"defeatReasons\":[\"Closed\",\"HigherPrice\",\"HasDriverInOffer\",\"HigherETA\"]},{\"uniqueOptionId\":\"3cd346f4-d297-7568-2e50-d43a8e2fd0a9\",\"optionId\":\"9047 || 9047 || CONSIGAZ\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"1:00\",\"chamaScore\":9.0,\"productBrand\":\"CONSIGAZ\",\"isWinner\":false,\"minimumPrice\":89.99,\"maximumPrice\":179.98,\"dynamicPrice\":91.89,\"finalPrice\":91.89,\"defeatPrimaryReason\":\"Closed\",\"defeatReasons\":[\"Closed\",\"HigherPrice\",\"HigherETA\"]},{\"uniqueOptionId\":\"577e4bbd-f49d-ac23-56a6-e70072a05229\",\"optionId\":\"9047 || 9047 || LIQUIGAS\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"1:00\",\"chamaScore\":9.0,\"productBrand\":\"LIQUIGAS\",\"isWinner\":false,\"minimumPrice\":92.00,\"maximumPrice\":184.00,\"dynamicPrice\":93.90,\"finalPrice\":93.90,\"defeatPrimaryReason\":\"Closed\",\"defeatReasons\":[\"Closed\",\"HigherPrice\",\"HigherETA\"]},{\"uniqueOptionId\":\"f9b876ab-2590-952f-d69d-5b352ec251f3\",\"optionId\":\"9047 || 9047 || NACIONALGAS\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"1:00\",\"chamaScore\":9.0,\"productBrand\":\"NACIONALGAS\",\"isWinner\":true,\"minimumPrice\":88.90,\"maximumPrice\":177.80,\"dynamicPrice\":90.80,\"finalPrice\":90.80}]},{\"curationProvider\":\"ByPrice\",\"offerId\":\"135d8401-11c0-4d21-bac1-cdb93ba65189\",\"dealerId\":\"8330\",\"options\":[{\"uniqueOptionId\":\"151e59ac-761a-96f5-d2b9-882037a9fd28\",\"optionId\":\"8330 || 8330 || CONSIGAZ\",\"isMobileDealer\":false,\"isOpen\":true,\"eta\":\"0:01\",\"chamaScore\":8.0,\"productBrand\":\"CONSIGAZ\",\"isWinner\":true,\"minimumPrice\":80.00,\"maximumPrice\":160.00,\"dynamicPrice\":87.35,\"finalPrice\":87.35}]},{\"curationProvider\":\"ByPrice\",\"offerId\":\"135d8401-11c0-4d21-bac1-cdb93ba65189\",\"dealerId\":\"8835\",\"options\":[{\"uniqueOptionId\":\"b7a7b6d1-4dae-7392-5aaf-f3369c29db1d\",\"optionId\":\"8835 || 8835 || LIQUIGAS\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"0:01\",\"chamaScore\":8.0,\"productBrand\":\"LIQUIGAS\",\"isWinner\":true,\"minimumPrice\":60.00,\"maximumPrice\":120.00,\"dynamicPrice\":87.35,\"finalPrice\":87.35}]}]"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-05 09:02:49 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"92269c83-9103-4ea3-b93b-ae2f1762f720\",\"algorithmOutput\":{\"min_global\":85.0,\"min_recommended\":87.2,\"max_recommended\":97.65,\"differenceMinRecommendMinTheory\":2.2}}"
+  }
+]
