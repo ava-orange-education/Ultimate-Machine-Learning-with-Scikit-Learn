@@ -1,39 +1,31 @@
-## Ultimate Snowflake Architecture for Cloud Data Warehousing
+## Ultimate Machine Learning with Scikit-Learn
 
-This is the repository for [Ultimate Snowflake Architecture for Cloud Data Warehousing](https://orangeava.com/products/ultimate-machine-learning-with-scikit-learn), published by Orange AVA™
+This is the repository for [Ultimate Machine Learning with Scikit-Learn](https://orangeava.com/products/ultimate-machine-learning-with-scikit-learn), published by Orange AVA™
 
 
 ## About the Book
-Unlock the revolutionary world of Snowflake with this comprehensive book which offers invaluable insights into every aspect of Snowflake architecture and management.
-
-Beginning with an introduction to Snowflake's architecture and key concepts, you will learn about cloud data warehousing principles like Star and Snowflake schemas to master efficient data organization. 
-
-Advancing to topics such as distributed systems and data loading techniques, you will discover how Snowflake manages data storage and processing for scalability and optimized performance. 
-
-Covering security features like encryption and access control, the book will equip you with the tools to ensure data confidentiality and compliance. The book also covers expert insights into performance optimization and schema design, equipping you with techniques to unleash Snowflake's full potential.
-
-By the end, you will have a comprehensive understanding of Snowflake's architecture and be empowered to leverage its features for valuable insights from massive datasets.
+“Ultimate Machine Learning with Scikit-Learn” is a definitive resource that offers an in-depth exploration of data preparation, modeling techniques, and the theoretical foundations behind powerful machine learning algorithms using Python and Scikit-Learn.
+ 
+Beginning with foundational techniques, you'll dive into essential skills for effective data preprocessing, setting the stage for robust analysis. Next, logistic regression and decision trees equip you with the tools to delve deeper into predictive modeling, ensuring a solid understanding of fundamental methodologies. You will master time series data analysis, followed by effective strategies for handling unstructured data using techniques like Naive Bayes.
+ 
+Transitioning into real-time data streams, you'll discover dynamic approaches with K-nearest neighbors for high-dimensional data analysis with Support Vector Machines(SVMs). Alongside, you will learn to safeguard your analyses against anomalies with isolation forests and harness the predictive power of ensemble methods, in the domain of stock market data analysis.
+ 
+By the end of the book you will master the art of data engineering and ML pipelines, ensuring you're equipped to tackle even the most complex analytics tasks with confidence.
 
 
 ## What you will learn●  Understand the foundational principles of Snowflake architecture and its core components
-●  Efficiently manage organizations and accounts within the Snowflake environment
+● Master fundamental data preprocessing techniques tailored for both structured and unstructured data
 
-●  Leverage virtual warehouse compute to scale processing capabilities effectively
+● Develop predictive models utilizing a spectrum of methods including regression, classification, and clustering
 
-●  Implement role-based access control to ensure robust data security measures
+● Tackle intricate data challenges by employing Support Vector Machines (SVMs), decision trees, and ensemble learning approaches
 
-●  Establish comprehensive data governance practices tailored to Snowflake
+● Implement advanced anomaly detection methodologies and explore emerging techniques like 
+neural networks
 
-●  Apply the security framework provided by Snowflake to safeguard data assets
+● Build efficient data pipelines optimized for handling big data and streaming analytics
 
-●  Implement deployment considerations for seamless integration into existing systems
-
-●  Optimize data storage strategies to maximize efficiency and performance
-
-●  Explore the Snowflake Marketplace for additional resources and solutions
-
-●  Extend Snowflake's functionality using Snowpark for enhanced data processing capabilities
-
+● Solidify core machine learning principles through practical examples and illustrations
 
 ## More products
 
