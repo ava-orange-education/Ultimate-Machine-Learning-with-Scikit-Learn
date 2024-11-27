@@ -13,7 +13,8 @@ Transitioning into real-time data streams, you'll discover dynamic approaches wi
 By the end of the book you will master the art of data engineering and ML pipelines, ensuring you're equipped to tackle even the most complex analytics tasks with confidence.
 
 
-## What you will learn●  Understand the foundational principles of Snowflake architecture and its core components
+## What you will learn
+●  Understand the foundational principles of Snowflake architecture and its core components
 ● Master fundamental data preprocessing techniques tailored for both structured and unstructured data
 
 ● Develop predictive models utilizing a spectrum of methods including regression, classification, and clustering
