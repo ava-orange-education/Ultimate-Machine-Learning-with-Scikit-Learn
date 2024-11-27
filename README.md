@@ -10,11 +10,12 @@ Beginning with foundational techniques, you'll dive into essential skills for ef
  
 Transitioning into real-time data streams, you'll discover dynamic approaches with K-nearest neighbors for high-dimensional data analysis with Support Vector Machines(SVMs). Alongside, you will learn to safeguard your analyses against anomalies with isolation forests and harness the predictive power of ensemble methods, in the domain of stock market data analysis.
  
-By the end of the book you will master the art of data engineering and ML pipelines, ensuring you're equipped to tackle even the most complex analytics tasks with confidence.
+By the end of the book, you will master the art of data engineering and ML pipelines, ensuring you're equipped to tackle even the most complex analytics tasks with confidence.
 
 
 ## What you will learn
 ●  Understand the foundational principles of Snowflake architecture and its core components
+
 ● Master fundamental data preprocessing techniques tailored for both structured and unstructured data
 
 ● Develop predictive models utilizing a spectrum of methods including regression, classification, and clustering
